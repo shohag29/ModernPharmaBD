@@ -120,11 +120,107 @@
 
 /* DISPLAY SECTION CLOSE */
 
+/* PRODUCTS SECTION HERE */
+.product {
+    margin: 0 auto;
+}
+
+.product-head {
+    text-align: center;
+}
+
+.product-head>h1 {
+    padding-top: 30px;
+    font-size: 35px;
+    color: #19CE67;
+}
+
+.product-head>p {
+    padding: 10px 0px 30px 0px;
+}
+
+.product-contanar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+}
+
+.product-box {
+    text-align: center;
+    height: 400px;
+    width: 310px;
+    background-color: #f8F8F8;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.product-box>img {
+    height: 200px;
+    padding-top: 10px;
+}
+
+.product-box>h3 {
+    color: #19CE67;
+    padding-bottom: 10px;
+}
+
+.product-box>h4 {
+    padding: 10px 0px;
+}
+
+.fa-solid {
+    color: #FFC107;
+}
+
+
+
+.button {
+    height: 40px;
+    width: 100%;
+    background-color: #19CE67;
+    color: white;
+    padding: 12px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+
+
+
+
+/* PRODUCTS SECTION CLOSE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* MOBIL SCREEN RESPONSIVE */
 
 @media only screen and (max-width:412px) {
     .contanar {
-        padding: 0px 30px;
+        padding: 0px 20px 0px 20px;
     }
 
     /* NAVBAR SECTION HERE  */
@@ -170,7 +266,7 @@
 
     .display-text {
         width: 100%;
-        padding-top: 100px;
+        padding-top: 50px;
     }
 
     .display-text h1 {
@@ -183,7 +279,7 @@
     }
 
     .news-btn {
-        padding: 8px 20px;
+        padding: 8px 15px;
         background-color: black;
         color: white;
         border: none;
@@ -196,7 +292,7 @@
     }
 
     .get-btn {
-        padding: 8px 20px;
+        padding: 8px 15px;
         background-color: #19CE67;
         color: white;
         border: none;
@@ -212,5 +308,75 @@
         display: none;
 
     }
+
+    /* DISPLAY SECTION CLOSE */
+
+    /* PRODUCTS SECTION HERE */
+
+    .product-head {
+        text-align: center;
+    }
+
+    .product-head>h1 {
+        padding-top: 30px;
+        font-size: 25px;
+        color: #19CE67;
+    }
+
+    .product-head>p {
+        padding: 10px 0px 30px 0px;
+    }
+
+    .product-contanar {
+        display: block;
+
+    }
+
+    .product-box {
+        text-align: center;
+        height: 400px;
+        width: 100%;
+        background-color: #f8F8F8;
+        box-shadow: 0px 0px 5px black;
+        border-radius: 10px;
+        position: relative;
+        margin: 0px 0px 30px 0px;
+    }
+
+    .product-box>img {
+        height: 200px;
+        padding-top: 10px;
+    }
+
+    .product-box>h3 {
+        color: #19CE67;
+        padding-bottom: 10px;
+    }
+
+    .product-box>h4 {
+        padding: 10px 0px;
+    }
+
+    .fa-solid {
+        color: #FFC107;
+    }
+
+
+
+    .button {
+        height: 40px;
+        width: 100%;
+        background-color: #19CE67;
+        color: white;
+        padding: 12px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        position: absolute;
+        bottom: 0px;
+    }
+
+
+
+    /* PRODUCTS SECTION CLOSE */
 
 }
