@@ -9,4 +9,4 @@ This is Modern PharmaBD web Page. Create by Md Shohag Hossen
 
 ## Live Link
 
-A live version of the project is available at:
+A live version of the project is available at: https://gorgeous-youtiao-b36c70.netlify.app/
