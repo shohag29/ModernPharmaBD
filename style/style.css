@@ -459,7 +459,7 @@
 
     .display {
         display: block;
-        height: 40vh;
+        height: 60vh;
         width: 100%;
         background: url("../display/banner-bg.jpg");
         background-size: cover;
